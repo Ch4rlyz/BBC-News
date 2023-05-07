@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%
+}
+
+#starter {
+    font-size:1.2rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+.first-div {
+    display:flex;
+    flex-direction: row;
+    padding-left:25rem;
+    padding-right:25rem;
+    border-bottom: solid grey 1px; 
+    height:fit-content;
+}
+
+.main-navigation {
+    width: 65vw;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height:fit-content;
+    padding-top:2rem;
+    padding-left: 1.5rem;
+}
+
+.bbc-logo {
+    width:15rem;
+    position: relative;
+    bottom:1.5rem;
+    right:1.5rem;
+}
+
+.bbc-logo:hover {
+    animation-name: "Unit";
+}
+
+.user {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top:.8rem;
+    right:3.7rem;
+    display: inline-block;
+}
+
+.sign-in {
+    font-size: 1.2rem;
+    min-width:3.8rem;
+    padding-top:1.8rem;
+    position: relative;
+    right:3.7rem;
+}
+
+.link-for-signing:visited {
+    color: black;
+}
+
+.link-for-signing:hover {
+    color: orange;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:1.5rem;
+    width:20rem;
+    height: fit-content
+
+}
+
+.threedots {
+    width: 2rem;
+    height: 2rem;
+}
+
+.seacher {
+    width: 2rem;
+    height:2rem;
+}
+
+.search-line {
+    display: flex;
+    background-color: rgb(165, 161, 161); 
+    border-radius: .3rem;
+    width:8rem;
+}
+
+.search {
+    font-size: 1.2rem;
+    padding-top: .3rem;
+}
+
+
+.second-div {
+    background-color: red;
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+
+.title-news {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    padding-left: 1.5rem;
+}
+
+#pestana {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.secondary-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-top:1rem;
+}
+
+.more::after {
+    content: "🡫"
+}
+
+.firstadcontainer {
+    display:flex;
+    justify-content: center;
+}
+
+.first-ad {
+    width: 50rem;
+}
+
+#column {
+    margin-left:25rem;
+    margin-right:25rem;
+    display: flex;
+    flex-direction: row;
+}
+.first-line {
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.firstnew-container {
+    
+    margin-top: 3rem;
+    display:flex;
+    flex-direction: row;
+    width:45rem;
+    justify-content: space-between;
+}
+
+.firstnew-title {
+    font-size: 2.3rem;
+    
+}
+
+#newstitles:hover {
+    text-decoration: underline;
+    color: orange
+}
+
+#normaltext {
+    font-size: 1.2rem;
+}
+
+.firstnew-image {
+    width: 29rem;
+}
+
+
+.secondnew-container {
+    margin-top: 3rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.secondnew-main {
+    width:17rem;
+}
+
+.secondnew-image {
+    min-width: 17rem;
+    max-width: 17rem;
+}
+
+.secondnew-title {
+    font-size:1.5rem;
+}
+
+
+.secondadcontainer {
+
+    margin-top: 3rem;
+}
+
+.second-ad {
+    width:30rem;
+}
+
+.legaldisclaimer {
+    position: relative;
+    left: 2rem;
+}
+
+.second-line {
+    justify-content: space-between ;
+    border-top:rgb(165, 161, 161) solid 2px;
+}
+#title-of-column {
+    margin-left:25rem;
+    font-size:1.2rem;
+    margin-top:3rem;
+    font-weight: bold;
+}
+.thirdnew-image {
+    width: 16rem;
+}
+.thirdnew-main {
+    width:16rem;
+}
+.thirdnew-title {
+    font-size:1.5rem;
+}
+.fourthnew-title {
+    font-size: 1.4rem;
+}
+.fourthnew-image {
+    width:12.5rem;
+}
+
+.fourthnew-main {
+    width: 12.5rem;
+}
+.fifthnew-image {
+    width: 9.5rem;
+}
+
+.fifthnew-title {
+    font-size: 1.4rem;
+}
+
+.fifthnew-main {
+    width:9.5rem;;
+}
+
+.sixthnew-image {
+    width:15rem;
+}
+.sixthnew-main {
+    width:15rem;
+}
+.sixthnew-title {
+    font-size:1.5rem;
+}
+.seventhnew-image {
+    width:15.5rem;
+}
+.seventhnew-main {
+    width:15.5rem
+}
+.seventhnew-title {
+    font-size:1.5rem;
+}
+.eighthnew-image {
+    width:16rem;
+}
+
+.eighthnew-main {
+    width:16rem;
+}
+.eighthnew-title {
+    font-size:1.5rem;
+}
+
+.third-line {
+    border-top: solid rgb(165, 161, 161) 2px;
+}
+
+
+.firstcontainer {
+    display:block
+}
+.firstsecondcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.secondsecondcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.ninthnew-image {
+    width:35rem;
+}
+.ninthnew-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.ninthnew-main {
+    width:35rem;
+}
+.eleventhnew-image {
+    width:15rem;
+}
+
+.eleventhnew-main{
+    width:15rem;
+    text-align: center;
+}
+.eleventhnew-title {
+    font-size: 1.2rem;
+}
+
+.twelvethnew-image {
+    width:15rem;
+}
